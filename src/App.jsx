@@ -5,6 +5,7 @@ import About from './sections/About'
 import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
+import ScrollToTopButton from './sections/ScrollToTopButton'
 // import Experience from './sections/Experience'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      <ScrollToTopButton/>
     </main>
   )
 }

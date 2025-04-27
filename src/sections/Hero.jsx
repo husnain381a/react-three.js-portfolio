@@ -33,7 +33,7 @@ function Hero() {
   const sizes = calculateSizes(isMobile, isTablet, isSmall);
 
   return (
-   <section className='min-h-screen w-full flex-col relative'>
+   <section className='min-h-screen w-full flex-col relative' id='hero'>
     <div className='mx-auto flex flex-col w-full sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl text-2xl font-medium font-generalsans text-center text-white'>Hi, I am Husnain <span className="waving-hand">👋</span></p>
         <p className='hero_tag text-gray_gradient'>Front-End Developer</p>
