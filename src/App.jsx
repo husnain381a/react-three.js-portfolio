@@ -6,7 +6,8 @@ import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import ScrollToTopButton from './sections/ScrollToTopButton'
-// import Experience from './sections/Experience'
+import Experience from './sections/Experience'
+// import Education from './sections/Education'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <NavBar/>
       <Hero/>
       <About/>
-      {/* <Experience/> */}
+      {/* <Education/> */}
+      <Experience/>
       <Projects/>
       <Contact/>
       <Footer/>

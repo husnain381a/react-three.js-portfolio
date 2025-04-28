@@ -65,7 +65,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="border border-black-300 bg-Mine rounded-lg h-96 md:h-full">
+        <div className="border bg-border_300 bg-Mine rounded-lg h-96 md:h-full">
           <Canvas>
             <ambientLight intensity={Math.PI} />
             <directionalLight position={[10, 10, 5]} />

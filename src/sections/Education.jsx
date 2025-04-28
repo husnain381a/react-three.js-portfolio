@@ -1,26 +1,15 @@
-import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls  } from '@react-three/drei'
 import { workExperiences } from '../constants'
-import HusnainAvatar from '../components/HusnainAvatar'
-import CanvasLoader from '../components/CanvasLoader.jsx';
 
-function Experience() {
+function Education() {
     return (
         <section className='c-space my-20'>
             <div className='w-full text-white'>
-                <h3 className='head-text'> My Work Experience</h3>
+                <h3 className='head-text'> My Education</h3>
                 <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12'>
                     <div className='col-span-1 rounded-lg bg-black_200 border bg-border_300'>
-                        {/* //Model from player me in glb then to mariex web for animations, then glb to react and paste in component then attach the animation downloaded file */}
                         <Canvas>
-                            <ambientLight intensity={7}/>
-                            <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1}/>
-                            <directionalLight position={[10, 10, 10]} intensity={1} />
-              <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
-              <Suspense fallback={<CanvasLoader />}>
-                <HusnainAvatar position-y={-3} scale={3}/>
-              </Suspense>
+
                         </Canvas>
                     </div>
                     <div className='bg-black_200 col-span-2 rounded-lg border bg-border_300'>
@@ -49,4 +38,4 @@ function Experience() {
     )
 }
 
-export default Experience
+export default Education

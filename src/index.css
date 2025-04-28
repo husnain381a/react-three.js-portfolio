@@ -11,6 +11,19 @@ body {
   font-family: 'General Sans', sans-serif;
 }
 
+.bg-black_200{
+  background-color: #0E0E10;
+}
+.bg-border_300{
+  border: #010103;
+}
+.bg-logo_300{
+  background-color: #1A1A1A;
+}
+.text-white_800{
+  color: #BEC1CF;
+}
+
 /* Utility Classes */
 .c-space {
   padding-left: 1.25rem; /* px-5 */
