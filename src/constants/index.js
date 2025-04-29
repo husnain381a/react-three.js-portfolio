@@ -260,20 +260,20 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
+      name: 'Freelance Web Developer',
+      // pos: 'Lead Web Developer',
       duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
+      title: "I have successfully completed 60+ web development projects for clients worldwide, primarily sourced through social media and Upwork. My work includes building custom, responsive websites with a focus on user experience, functionality, and cross-browser compatibility. I manage each project end-to-end, ensuring timely delivery and client satisfaction.",
+      icon: '/assets/freelancer.png',
       animation: 'victory',
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
+      name: 'Frontend Developer (Remote)',
+      pos: 'Young Dev | ',
+      duration: '2024 - 2025',
+      title: "As a Frontend Developer at Young Dev, I was responsible for designing and developing user-facing features for web applications. Working remotely, I collaborated closely with design and backend teams to ensure seamless integration and optimal performance across devices and browsers.",
+      icon: '/assets/youngdev.png',
       animation: 'clapping',
     },
     {
@@ -283,6 +283,37 @@ export const navLinks = [
       duration: '2019 - 2020',
       title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
       icon: '/assets/notion.svg',
+      animation: 'salute',
+    },
+  ];
+
+
+  export const education = [
+    {
+      id: 1,
+      name: 'Bachelor’s in Software Engineering',
+      pos: 'University of Sialkot | ',
+      duration: '2022 - 2026',
+      title: "I am deepening my knowledge in programming languages, frameworks, and development methodologies. My studies focus on problem-solving, software design principles, and exploring emerging technologies like AI and machine learning. I’m also building strong skills in project management, teamwork, and communication to prepare for a successful career in software development.",
+      icon: '/assets/uskt.png',
+      animation: 'victory',
+    },
+    {
+      id: 2,
+      name: 'Intermediate in FSc Engineering ',
+      pos: 'Kips College | ',
+      duration: '2020 - 2022',
+      title: "Completed with a strong focus on core engineering subjects including Mathematics, Physics, and Chemistry. Developed a solid foundation in analytical thinking, problem-solving, and technical reasoning, which laid the groundwork for pursuing higher education in Software Engineering. ",
+      icon: '/assets/kips.png',
+      animation: 'clapping',
+    },
+    {
+      id: 3,
+      name: 'Matriculation in Computer Science',
+      pos: 'Allied School | ',
+      duration: '2018 - 2020',
+      title: "Completed with a concentration in Computer Science, gaining foundational knowledge in programming, computer operations, and IT concepts. Developed early skills in logic building, problem-solving, and the basics of software and hardware, which sparked my interest in pursuing a career in technology and software development.",
+      icon: '/assets/alliedschool.png',
       animation: 'salute',
     },
   ];

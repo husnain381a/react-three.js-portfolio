@@ -10,18 +10,24 @@ const ScrollToTopButton = ({
   const [isVisible, setIsVisible] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
-  const buttonSize = {
-    sm: 'h-10 w-10',
-    md: 'h-12 w-12',
-    lg: 'h-14 w-14'
-  }[size];
+  const buttonSizeMap = {
+    sm: 40,
+    md: 48,
+    lg: 56
+  };
 
-  const iconSize = {
+  const iconSizeMap = {
     sm: 18,
     md: 20,
     lg: 24
-  }[size];
+  };
 
+  const sizePx = buttonSizeMap[size];
+  const iconSize = iconSizeMap[size];
+  const radius = 22; // SVG circle radius
+  const strokeWidth = 4;
+  const circumference = 2 * Math.PI * radius;
+  const dashOffset = circumference - (circumference * scrollProgress) / 100;
   const positionClass = position === 'left' ? 'left-4' : 'right-4';
 
   useEffect(() => {
@@ -37,20 +43,17 @@ const ScrollToTopButton = ({
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial check
+    handleScroll(); // initial check
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, [showAfter]);
- //change
+
   const handleScrollToTop = () => {
     const heroSection = document.getElementById('hero');
     if (heroSection) {
       heroSection.scrollIntoView({ behavior: 'smooth' });
     } else {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
@@ -58,33 +61,34 @@ const ScrollToTopButton = ({
 
   return (
     <div
-      className={`fixed ${positionClass} z-50 transition-all duration-300 ease-in-out`}
+      className={`fixed ${positionClass} z-[9999] transition-all duration-300 ease-in-out`}
       style={{ bottom: `${offset}px` }}
     >
-      <div className="relative">
+      <div className="relative" style={{ width: sizePx, height: sizePx }}>
         <svg
           className="absolute top-0 left-0 -rotate-90"
-          width="100%"
-          height="100%"
-          viewBox="0 0 100 100"
+          width={sizePx}
+          height={sizePx}
+          viewBox="0 0 50 50"
+          style={{ pointerEvents: 'none' }}
         >
           <circle
-            cx="50"
-            cy="50"
-            r="46"
+            cx="25"
+            cy="25"
+            r={radius}
             fill="none"
             stroke="rgba(0,0,0,0.1)"
-            strokeWidth="8"
+            strokeWidth={strokeWidth}
           />
           <circle
-            cx="50"
-            cy="50"
-            r="46"
+            cx="25"
+            cy="25"
+            r={radius}
             fill="none"
             stroke="url(#gradient)"
-            strokeWidth="8"
-            strokeDasharray="289.03"
-            strokeDashoffset={289.03 - (289.03 * scrollProgress) / 100}
+            strokeWidth={strokeWidth}
+            strokeDasharray={circumference}
+            strokeDashoffset={dashOffset}
             strokeLinecap="round"
           />
           <defs>
@@ -97,7 +101,7 @@ const ScrollToTopButton = ({
 
         <button
           onClick={handleScrollToTop}
-          className={`${buttonSize} flex items-center justify-center rounded-full bg-white text-gray-800 shadow-lg transition-all duration-300 ease-in-out hover:bg-gray-50 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50`}
+          className="w-full h-full flex items-center justify-center rounded-full bg-white text-gray-800 shadow-lg transition-all duration-300 ease-in-out hover:bg-gray-50 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
           aria-label="Scroll to top"
         >
           <ChevronUp size={iconSize} />

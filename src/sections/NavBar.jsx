@@ -30,7 +30,7 @@ function NavBar() {
             <div className='flex items-center justify-between py-5 px-auto c-space'>
                 <a href="/" className='text-neutral-400 font-bold text-xl hover:text-white transition-colors'>
                 <span>{"< Husnain"}</span>
-                <span>{" Mazhar />"}</span>
+                <span>{" Mazhar / >"}</span>
                 </a>
 
                 {/* For Mobile Hamburger*/}
