@@ -1,5 +1,9 @@
+import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
+import { OrbitControls  } from '@react-three/drei'
 import { workExperiences } from '../constants'
+import HusnainAvatar2 from '../components/HusnainAvatar2'
+import CanvasLoader from '../components/CanvasLoader.jsx';
 
 function Education() {
     return (
@@ -8,8 +12,14 @@ function Education() {
                 <h3 className='head-text'> My Education</h3>
                 <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12'>
                     <div className='col-span-1 rounded-lg bg-black_200 border bg-border_300'>
-                        <Canvas>
-
+                    <Canvas>
+                            <ambientLight intensity={7}/>
+                            <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1}/>
+                            <directionalLight position={[10, 10, 10]} intensity={1} />
+              <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
+              <Suspense fallback={<CanvasLoader />}>
+                <HusnainAvatar2 position-y={-3} scale={3}/>
+              </Suspense>
                         </Canvas>
                     </div>
                     <div className='bg-black_200 col-span-2 rounded-lg border bg-border_300'>

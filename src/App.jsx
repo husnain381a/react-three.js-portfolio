@@ -7,7 +7,7 @@ import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import ScrollToTopButton from './sections/ScrollToTopButton'
 import Experience from './sections/Experience'
-// import Education from './sections/Education'
+import Education from './sections/Education'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <NavBar/>
       <Hero/>
       <About/>
-      {/* <Education/> */}
+      <Education/>
       <Experience/>
       <Projects/>
       <Contact/>
