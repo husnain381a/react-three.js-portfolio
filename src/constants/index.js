@@ -380,7 +380,7 @@ export const navLinks = [
     },
     {
       id: 2,
-      name: 'Frontend Developer',
+      name: 'Front-End Developer',
       pos: 'Young Dev | ',
       duration: '2024 - 2025',
       title: "As a Frontend Developer at Young Dev, I designed and developed user-facing features for web apps, collaborating remotely with design and backend teams to ensure seamless integration and performance across devices and browsers.",
