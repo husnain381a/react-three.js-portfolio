@@ -62,8 +62,8 @@ export const navLinks = [
       desc: 'A creative and performance-focused digital solutions agency specializing in modern, responsive, and performance-driven websites. The agency offers a wide range of services, including custom WordPress development, e-commerce solutions, UI/UX design, SEO optimization, and branding. ',
       subdesc:
         'With a focus on clean design, user experience, and mobile responsiveness, the agency serves clients across various industries such as education, renovation, healthcare, and retail.ty.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project1.mp4',
+      href: 'https://primumwebdevelopers.com/',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -99,7 +99,7 @@ export const navLinks = [
       desc: 'An easy-to-access online learning platform focused on delivering practical, skill-based education in fields like IT, graphic design, web development, digital marketing, and more. 1 Click Skills offers both curated free resources and structured learning paths through video tutorials, downloadable materials, and integrated YouTube playlists. ',
       subdesc:
         ' Designed with a clean, responsive interface, the platform makes learning efficient and accessible—helping users grow their digital skillset in just one click.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      href: 'https://1clickskills.com/',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -136,8 +136,8 @@ export const navLinks = [
       desc: 'A web-based tool specifically developed for students of the University of Sialkot to calculate their GPA and CGPA quickly and accurately. The USKT CGPA Calculator features a user-friendly interface where students can input their course grades and credit hours to instantly view their academic performance',
       subdesc:
         'esigned with responsiveness and simplicity in mind, the tool eliminates manual errors and helps students track their academic progress with ease.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project3.mp4',
+      href: 'https://usktcgpacalculator.site/',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -175,8 +175,8 @@ export const navLinks = [
       desc: 'An open-access platform offering curated skill-building resources, including video tutorials, YouTube playlists, roadmaps, notes, and guides across various fields like IT, AI, cybersecurity, design, and development. It is designed to help learners at all levels gain practical knowledge without any cost. ',
       subdesc:
         'With an organized and searchable library, the platform serves as a one-stop destination for anyone looking to upskill efficiently through trusted and structured content.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project4.mp4',
+      href: 'https://mukarram.info/',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -212,8 +212,8 @@ export const navLinks = [
       desc: 'A lightweight and responsive weather application built with React and CSS that displays real-time weather data based on user input or current location. Weather Now integrates a weather API to provide accurate information including temperature, humidity, wind speed, and general conditions.',
       subdesc:
         'Designed with simplicity and user experience in mind, the app delivers quick access to weather updates through a clean and intuitive interface.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project5.mp4',
+      href: 'https://weather-now-api.vercel.app/',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -249,8 +249,8 @@ export const navLinks = [
       desc: 'A full-featured e-commerce website offering a wide range of products across categories including home and lifestyle, health and beauty, kitchen accessories, women’s fashion, mobile accessories, personal care, and more. Acessiory is designed with a modern, responsive layout and smooth navigation to enhance user experience.',
       subdesc:
         'The platform includes product filtering, cart functionality, secure checkout, and category management, providing a seamless online shopping experience for customers.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project5.mp4',
+      href: 'http://acessiory.com/',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -286,8 +286,8 @@ export const navLinks = [
       desc: 'Pristine Medical Solutions provides a comprehensive billing and management system designed to streamline hospital operations. The website offers a user-friendly interface for managing patient billing, insurance claims, payments, and invoicing.',
       subdesc:
         'Built with a focus on efficiency and security, this platform simplifies administrative tasks, reduces errors, and ensures smooth financial operations within healthcare facilities. The system helps hospitals improve workflow, accuracy, and overall patient experience by automating critical billing processes.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project5.mp4',
+      href: 'http://pristine-ms.com/',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -323,8 +323,8 @@ export const navLinks = [
       desc: 'Medi Doctor is an AI-powered chatbot built on Meta LLaMA model, integrated with WhatsApp to provide medical recommendations based on users symptoms and health concerns. Through a simple and conversational interface, the chatbot analyzes user inputs and suggests appropriate medicines.',
       subdesc:
         'This tool offers instant, personalized health advice, empowering users to make informed decisions about their healthcare. Medi Doctor is designed for easy access and quick support via WhatsApp, making healthcare assistance readily available anytime.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project5.mp4',
+      href: 'https://wa.me/ais/1127744588757076?s=5',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -374,7 +374,7 @@ export const navLinks = [
       name: 'Freelance Web Developer',
       // pos: 'Lead Web Developer',
       duration: '2022 - Present',
-      title: "I have successfully completed 60+ web development projects for clients worldwide, primarily sourced through social media and Upwork. My work includes building custom, responsive websites with a focus on user experience, functionality, and cross-browser compatibility. I manage each project end-to-end, ensuring timely delivery and client satisfaction.",
+      title: "Successfully completed 60+ web development projects for global clients via social media and Upwork, delivering custom, responsive websites focused on UX, functionality, and cross-browser compatibility. Managed projects end-to-end with a strong emphasis on timely delivery and client satisfaction.",
       icon: '/assets/freelancer.png',
       animation: 'victory',
     },
@@ -383,7 +383,7 @@ export const navLinks = [
       name: 'Frontend Developer (Remote)',
       pos: 'Young Dev | ',
       duration: '2024 - 2025',
-      title: "As a Frontend Developer at Young Dev, I was responsible for designing and developing user-facing features for web applications. Working remotely, I collaborated closely with design and backend teams to ensure seamless integration and optimal performance across devices and browsers.",
+      title: "As a Frontend Developer at Young Dev, I designed and developed user-facing features for web apps, collaborating remotely with design and backend teams to ensure seamless integration and performance across devices and browsers.",
       icon: '/assets/youngdev.png',
       animation: 'clapping',
     },
@@ -405,7 +405,7 @@ export const navLinks = [
       name: 'Bachelor’s in Software Engineering',
       pos: 'University of Sialkot | ',
       duration: '2022 - 2026',
-      title: "I am deepening my knowledge in programming languages, frameworks, and development methodologies. My studies focus on problem-solving, software design principles, and exploring emerging technologies like AI and machine learning. I’m also building strong skills in project management, teamwork, and communication to prepare for a successful career in software development.",
+      title: "I'm expanding my skills in programming, software design, and emerging technologies like AI/ML, while also developing strengths in problem-solving, project management, and teamwork for a successful software development career.",
       icon: '/assets/uskt.png',
       animation: 'victory',
     },
@@ -414,7 +414,7 @@ export const navLinks = [
       name: 'Intermediate in FSc Engineering ',
       pos: 'Kips College | ',
       duration: '2020 - 2022',
-      title: "Completed with a strong focus on core engineering subjects including Mathematics, Physics, and Chemistry. Developed a solid foundation in analytical thinking, problem-solving, and technical reasoning, which laid the groundwork for pursuing higher education in Software Engineering. ",
+      title: "Completed with a strong focus on core engineering subjects like Math, Physics, and Chemistry, building a solid foundation in analytical thinking and problem-solving for further studies in Software Engineering.",
       icon: '/assets/kips.png',
       animation: 'clapping',
     },
@@ -423,7 +423,7 @@ export const navLinks = [
       name: 'Matriculation in Computer Science',
       pos: 'Allied School | ',
       duration: '2018 - 2020',
-      title: "Completed with a concentration in Computer Science, gaining foundational knowledge in programming, computer operations, and IT concepts. Developed early skills in logic building, problem-solving, and the basics of software and hardware, which sparked my interest in pursuing a career in technology and software development.",
+      title: "Completed with a focus in Computer Science, gaining foundational knowledge in programming, IT, and computer operations. Built early skills in logic, problem-solving, and software basics, sparking my interest in technology and software development.",
       icon: '/assets/alliedschool.png',
       animation: 'salute',
     },
