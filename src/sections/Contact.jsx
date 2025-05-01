@@ -5,8 +5,8 @@ import ReCAPTCHA from 'react-google-recaptcha';
 function Contact() {
   const formRef = React.useRef();
   const recaptchaRef = React.useRef();
-
   const [loading, setLoading] = React.useState(false);
+  const [captchaVerified, setCaptchaVerified] = React.useState(false);
   const [form, setForm] = React.useState({
     name: '',
     email: '',
@@ -22,35 +22,33 @@ function Contact() {
     setForm({ ...form, [name]: value });
   };
 
+  const handleCaptchaChange = (token) => {
+    setCaptchaVerified(!!token);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!captchaVerified) {
+      alert("Please verify that you're not a robot.");
+      return;
+    }
+
     setLoading(true);
 
     try {
-      const token = await recaptchaRef.current.executeAsync();
-      recaptchaRef.current.reset();
-
-      if (!token) {
-        alert("reCAPTCHA verification failed. Please try again.");
-        setLoading(false);
-        return;
-      }
-
       await emailjs.send('service_35arxu8', 'template_u7phkmn', {
         from_name: form.name,
         from_email: form.email,
-        message: form.message,
-        'g-recaptcha-response': token
+        message: form.message
       });
 
       setLoading(false);
       alert('Thank you. I will get back to you as soon as possible.');
+      setForm({ name: '', email: '', message: '' });
+      recaptchaRef.current.reset(); // reset the captcha
+      setCaptchaVerified(false);
 
-      setForm({
-        name: '',
-        email: '',
-        message: ''
-      });
     } catch (error) {
       setLoading(false);
       console.error('Email sending error:', error?.text || error);
@@ -108,17 +106,18 @@ function Contact() {
               />
             </label>
 
+            <div className="flex justify-center">
+  <ReCAPTCHA
+    sitekey="6LdhGCsrAAAAAEixFnhhu0kop6QZ2jEOz0klrLcD"
+    onChange={handleCaptchaChange}
+    ref={recaptchaRef}
+  />
+</div>
+
             <button className='field-btn' type="submit" disabled={loading}>
               {loading ? 'Sending...' : 'Send Message'}
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
-
-            <ReCAPTCHA
-              ref={recaptchaRef}
-              sitekey="6LcxFisrAAAAAMWfvTtImiGQthpeUnGr0oi_VVni"
-              size="invisible"
-              badge="bottomleft"
-            />
           </form>
         </div>
       </div>
