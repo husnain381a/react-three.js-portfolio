@@ -25,7 +25,7 @@ function Projects() {
   }
   return (
     <section className='c-space my-20' id='portfolio'>
-      <p className='head-text'>My Work</p>
+      <p className='head-text'>My Portfolio</p>
 
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 mt-12 w-full'>
         <div className='flex flex-col relative sm:p-10 py-10 p-x 5 shadow-2xl shadow-black-200 '>

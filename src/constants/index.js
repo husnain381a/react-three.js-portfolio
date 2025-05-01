@@ -380,7 +380,7 @@ export const navLinks = [
     },
     {
       id: 2,
-      name: 'Frontend Developer (Remote)',
+      name: 'Frontend Developer',
       pos: 'Young Dev | ',
       duration: '2024 - 2025',
       title: "As a Frontend Developer at Young Dev, I designed and developed user-facing features for web apps, collaborating remotely with design and backend teams to ensure seamless integration and performance across devices and browsers.",
@@ -389,11 +389,11 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
+      name: 'Jr. Web Developer (Remote)',
+      pos: 'Code Alpha | ',
+      duration: '2023 - 2024',
+      title: "As a Web Developer at Code Alpha, I was responsible for designing and developing responsive, user-facing features for web applications. I worked closely with both the design and backend teams to ensure smooth integration and optimal performance across different devices and browsers.",
+      icon: '/assets/codealpha.png',
       animation: 'salute',
     },
   ];

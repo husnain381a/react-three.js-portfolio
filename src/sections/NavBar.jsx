@@ -45,7 +45,7 @@ function NavBar() {
             <nav>
               <NavItems />
             </nav>
-            <a href="/assets/Husnain_Resume.pdf" download>
+            <a href="/assets/HusnainMazhar-Resume.pdf" download>
               <Button name="Download Resume" isBeam containerClass="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-sm transition-colors" />
             </a>
           </div>
