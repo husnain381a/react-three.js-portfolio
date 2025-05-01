@@ -44,7 +44,7 @@ const Rings = ({ position }) => {
   );
 
   return (
-    <Center>
+    <Center position={position}>
       <group scale={0.5}>
         {Array.from({ length: 4 }, (_, index) => (
           <mesh key={index} ref={getRef}>

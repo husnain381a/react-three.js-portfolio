@@ -11,7 +11,7 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'Work',
+      name: 'Portfolio',
       href: '#work',
     },
     {
@@ -58,10 +58,10 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Priumum Web Developers - A Digital Solutions Agency',
+      desc: 'A creative and performance-focused digital solutions agency specializing in modern, responsive, and performance-driven websites. The agency offers a wide range of services, including custom WordPress development, e-commerce solutions, UI/UX design, SEO optimization, and branding. ',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+        'With a focus on clean design, user experience, and mobile responsiveness, the agency serves clients across various industries such as education, renovation, healthcare, and retail.ty.',
       href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
@@ -95,10 +95,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: '1 Click Skills – Online Learning Platform for Digital Growth',
+      desc: 'An easy-to-access online learning platform focused on delivering practical, skill-based education in fields like IT, graphic design, web development, digital marketing, and more. 1 Click Skills offers both curated free resources and structured learning paths through video tutorials, downloadable materials, and integrated YouTube playlists. ',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+        ' Designed with a clean, responsive interface, the platform makes learning efficient and accessible—helping users grow their digital skillset in just one click.',
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
@@ -132,10 +132,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'USKT CGPA Calculator – GPA & CGPA Calculation Tool',
+      desc: 'A web-based tool specifically developed for students of the University of Sialkot to calculate their GPA and CGPA quickly and accurately. The USKT CGPA Calculator features a user-friendly interface where students can input their course grades and credit hours to instantly view their academic performance',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        'esigned with responsiveness and simplicity in mind, the tool eliminates manual errors and helps students track their academic progress with ease.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
@@ -171,10 +171,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Open Skills Source – Free Skill-Building Resource Library',
+      desc: 'An open-access platform offering curated skill-building resources, including video tutorials, YouTube playlists, roadmaps, notes, and guides across various fields like IT, AI, cybersecurity, design, and development. It is designed to help learners at all levels gain practical knowledge without any cost. ',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+        'With an organized and searchable library, the platform serves as a one-stop destination for anyone looking to upskill efficiently through trusted and structured content.',
       href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
@@ -208,10 +208,121 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'Weather Now – Real-Time Weather App Using API',
+      desc: 'A lightweight and responsive weather application built with React and CSS that displays real-time weather data based on user input or current location. Weather Now integrates a weather API to provide accurate information including temperature, humidity, wind speed, and general conditions.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+        'Designed with simplicity and user experience in mind, the app delivers quick access to weather updates through a clean and intuitive interface.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Acessiory – Multi-Category E-commerce Store',
+      desc: 'A full-featured e-commerce website offering a wide range of products across categories including home and lifestyle, health and beauty, kitchen accessories, women’s fashion, mobile accessories, personal care, and more. Acessiory is designed with a modern, responsive layout and smooth navigation to enhance user experience.',
+      subdesc:
+        'The platform includes product filtering, cart functionality, secure checkout, and category management, providing a seamless online shopping experience for customers.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Pristine Medical Solutions – Hospital Billing and Management System',
+      desc: 'Pristine Medical Solutions provides a comprehensive billing and management system designed to streamline hospital operations. The website offers a user-friendly interface for managing patient billing, insurance claims, payments, and invoicing.',
+      subdesc:
+        'Built with a focus on efficiency and security, this platform simplifies administrative tasks, reduces errors, and ensures smooth financial operations within healthcare facilities. The system helps hospitals improve workflow, accuracy, and overall patient experience by automating critical billing processes.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: ' Medi Doctor – AI-Powered Medical Chatbot for Medicine Recommendations',
+      desc: 'Medi Doctor is an AI-powered chatbot built on Meta LLaMA model, integrated with WhatsApp to provide medical recommendations based on users symptoms and health concerns. Through a simple and conversational interface, the chatbot analyzes user inputs and suggests appropriate medicines.',
+      subdesc:
+        'This tool offers instant, personalized health advice, empowering users to make informed decisions about their healthcare. Medi Doctor is designed for easy access and quick support via WhatsApp, making healthcare assistance readily available anytime.',
       href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
@@ -247,15 +358,15 @@ export const navLinks = [
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
-    return {
-      deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-      deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-      cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
-      reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-150, 20, 0],
-      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
-    };
+  return {
+    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+    cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
+    reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
+    ringPosition: isSmall ? [-4, 3, 0] : isMobile ? [-6, 3, 0] : isTablet ? [-8, 3, 0] : [-10, 3, 0],
+    targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
   };
+};
   
   export const workExperiences = [
     {

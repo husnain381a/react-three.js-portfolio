@@ -1,27 +1,27 @@
 const Footer = () => {
-    return (
-      <footer className="c-space pt-7 pb-3 border-t border-black flex justify-between items-center flex-wrap gap-5">
-        <div className="text-white flex gap-2">
-          <p>Terms & Conditions</p>
-          <p>|</p>
-          <p>Privacy Policy</p>
+  return (
+    <footer className="c-space py-8 px-5 border-t border-gray-700 bg-black text-white">
+      <div className="flex flex-col items-center justify-center gap-4 text-center">
+        {/* Social Icons */}
+        <div className="flex gap-5">
+          <a href="#" className="hover:scale-110 transition-transform duration-300">
+            <img src="/assets/github.svg" alt="GitHub" className="w-6 h-6" />
+          </a>
+          <a href="#" className="hover:scale-110 transition-transform duration-300">
+            <img src="/assets/twitter.svg" alt="Twitter" className="w-6 h-6" />
+          </a>
+          <a href="#" className="hover:scale-110 transition-transform duration-300">
+            <img src="/assets/instagram.svg" alt="Instagram" className="w-6 h-6" />
+          </a>
         </div>
-  
-        <div className="flex gap-3">
-          <div className="social-icon">
-            <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-          </div>
-          <div className="social-icon">
-            <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-          </div>
-          <div className="social-icon">
-            <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-          </div>
-        </div>
-  
-        <p className="text-white">© 2024 Adrian Hajdin. All rights reserved.</p>
-      </footer>
-    );
-  };
-  
-  export default Footer;
+
+        {/* Copyright */}
+        <p className="text-sm text-gray-400">
+          © 2025 Husnain Mazhar. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
