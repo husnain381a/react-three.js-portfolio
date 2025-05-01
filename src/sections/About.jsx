@@ -23,7 +23,7 @@ function About() {
 
                     <div>
                         <p className='grid-headtext'>Hi, I'm Husnain</p>
-                        <p className='text-justify grid-subtext'>With 2+ years of experience, specializing in front-end development. I'm passionate about creating interactive, high-performance web applications with a strong focus on design and usability. Currently expanding into full-stack development through real-time projects and advanced training, I bring proactive problem-solving and solid project management skills to every challenge.</p>
+                        <p className='grid-subtext'>With 2+ years in front-end development, I specialize in building interactive, high-performance web applications focused on design and usability. Expanding into full-stack development through real-world projects, I bring strong problem-solving and project management skills to every challenge.</p>
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ function About() {
                     <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] object-contain h-fit" />
                     <div>
                         <p className='grid-headtext'>Tech Stack</p>
-                        <p className=' text-justify grid-subtext'>I work with a modern and flexible set of tools that help me build fast, responsive, and user-friendly web applications. My skills cover both front-end and back-end development, allowing me to create seamless user experiences and powerful functionality. I’m always exploring new technologies to stay updated with industry trends and continually improve the quality of my work.</p>
+                        <p className=' grid-subtext'>I use a modern set of tools to build fast, responsive, and user-friendly web applications. With skills in both front-end and back-end development, I create seamless user experiences and powerful functionality. I’m always exploring new technologies to stay updated and improve my work.</p>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ function About() {
                     </div>
                     <div>
                     <p className="grid-headtext">I’m flexible and available to work remotely across any time zone or location</p>
-                    <p className="text-justify grid-subtext">No matter where you're located, I'm highly adaptable with time zone differences and remote work setups. I prioritize clear communication and consistent collaboration, making it easy to work with clients and teams worldwide.</p>
+                    <p className="grid-subtext">I’m highly adaptable to time zone differences and remote work setups, prioritizing clear communication and consistent collaboration for smooth interactions with clients and teams worldwide.</p>
                     <a href="#contact" className="w-full">
                     <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                     </a>
@@ -69,7 +69,7 @@ function About() {
                     <img src="/assets/grid3.png" alt="grid-3" className='w-full sm:h-[266px] h-fit object-contain' />
                     <div>
               <p className="grid-headtext">Passion for Web Development, AI, and Innovation</p>
-              <p className="text-justify grid-subtext">
+              <p className="grid-subtext">
               As a web developer and software engineering student, I’m deeply passionate about creating intuitive and engaging user experiences. My enthusiasm for technology extends beyond just coding; I’m fascinated by the potential of AI and how it can shape the future of web development. I’m constantly exploring new tools and techniques to enhance my skills and stay at the cutting edge of the industry
               </p>
             </div>
