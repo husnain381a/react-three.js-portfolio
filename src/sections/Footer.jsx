@@ -4,13 +4,13 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center gap-4 text-center">
         {/* Social Icons */}
         <div className="flex gap-5">
-          <a href="#" className="hover:scale-110 transition-transform duration-300">
-            <img src="/assets/linkedin.svg" alt="GitHub" className="w-6 h-6" />
+          <a href="https://linkedin.com/in/husnain-mazhar/" target="_blank" className="hover:scale-110 transition-transform duration-300">
+            <img src="/assets/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
           </a>
-          <a href="#" className="hover:scale-110 transition-transform duration-300">
-            <img src="/assets/whatsapp.svg" alt="Twitter" className="w-6 h-6" />
+          <a href="https://api.whatsapp.com/send/?phone=923245403464" target="_blank" className="hover:scale-110 transition-transform duration-300">
+            <img src="/assets/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
           </a>
-          <a href="#" className="hover:scale-110 transition-transform duration-300">
+          <a href="https://www.instagram.com/husnain.dev/" target="_blank" className="hover:scale-110 transition-transform duration-300">
             <img src="/assets/instagram.svg" alt="Instagram" className="w-6 h-6" />
           </a>
         </div>
