@@ -2,7 +2,7 @@ export const navLinks = [
     {
       id: 1,
       name: 'Home',
-      href: '#home',
+      href: '#hero',
     },
     {
       id: 2,
@@ -12,7 +12,7 @@ export const navLinks = [
     {
       id: 3,
       name: 'Portfolio',
-      href: '#work',
+      href: '#portfolio',
     },
     {
       id: 4,
@@ -62,7 +62,7 @@ export const navLinks = [
       desc: 'A creative and performance-focused digital solutions agency specializing in modern, responsive, and performance-driven websites. The agency offers a wide range of services, including custom WordPress development, e-commerce solutions, UI/UX design, SEO optimization, and branding. ',
       subdesc:
         'With a focus on clean design, user experience, and mobile responsiveness, the agency serves clients across various industries such as education, renovation, healthcare, and retail.ty.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -136,7 +136,7 @@ export const navLinks = [
       desc: 'A web-based tool specifically developed for students of the University of Sialkot to calculate their GPA and CGPA quickly and accurately. The USKT CGPA Calculator features a user-friendly interface where students can input their course grades and credit hours to instantly view their academic performance',
       subdesc:
         'esigned with responsiveness and simplicity in mind, the tool eliminates manual errors and helps students track their academic progress with ease.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -175,7 +175,7 @@ export const navLinks = [
       desc: 'An open-access platform offering curated skill-building resources, including video tutorials, YouTube playlists, roadmaps, notes, and guides across various fields like IT, AI, cybersecurity, design, and development. It is designed to help learners at all levels gain practical knowledge without any cost. ',
       subdesc:
         'With an organized and searchable library, the platform serves as a one-stop destination for anyone looking to upskill efficiently through trusted and structured content.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -212,7 +212,7 @@ export const navLinks = [
       desc: 'A lightweight and responsive weather application built with React and CSS that displays real-time weather data based on user input or current location. Weather Now integrates a weather API to provide accurate information including temperature, humidity, wind speed, and general conditions.',
       subdesc:
         'Designed with simplicity and user experience in mind, the app delivers quick access to weather updates through a clean and intuitive interface.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -249,7 +249,7 @@ export const navLinks = [
       desc: 'A full-featured e-commerce website offering a wide range of products across categories including home and lifestyle, health and beauty, kitchen accessories, women’s fashion, mobile accessories, personal care, and more. Acessiory is designed with a modern, responsive layout and smooth navigation to enhance user experience.',
       subdesc:
         'The platform includes product filtering, cart functionality, secure checkout, and category management, providing a seamless online shopping experience for customers.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -286,7 +286,7 @@ export const navLinks = [
       desc: 'Pristine Medical Solutions provides a comprehensive billing and management system designed to streamline hospital operations. The website offers a user-friendly interface for managing patient billing, insurance claims, payments, and invoicing.',
       subdesc:
         'Built with a focus on efficiency and security, this platform simplifies administrative tasks, reduces errors, and ensures smooth financial operations within healthcare facilities. The system helps hospitals improve workflow, accuracy, and overall patient experience by automating critical billing processes.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -323,7 +323,7 @@ export const navLinks = [
       desc: 'Medi Doctor is an AI-powered chatbot built on Meta LLaMA model, integrated with WhatsApp to provide medical recommendations based on users symptoms and health concerns. Through a simple and conversational interface, the chatbot analyzes user inputs and suggests appropriate medicines.',
       subdesc:
         'This tool offers instant, personalized health advice, empowering users to make informed decisions about their healthcare. Medi Doctor is designed for easy access and quick support via WhatsApp, making healthcare assistance readily available anytime.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {

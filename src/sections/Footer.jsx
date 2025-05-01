@@ -5,10 +5,10 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex gap-5">
           <a href="#" className="hover:scale-110 transition-transform duration-300">
-            <img src="/assets/github.svg" alt="GitHub" className="w-6 h-6" />
+            <img src="/assets/linkedin.svg" alt="GitHub" className="w-6 h-6" />
           </a>
           <a href="#" className="hover:scale-110 transition-transform duration-300">
-            <img src="/assets/twitter.svg" alt="Twitter" className="w-6 h-6" />
+            <img src="/assets/whatsapp.svg" alt="Twitter" className="w-6 h-6" />
           </a>
           <a href="#" className="hover:scale-110 transition-transform duration-300">
             <img src="/assets/instagram.svg" alt="Instagram" className="w-6 h-6" />

@@ -57,7 +57,9 @@ function About() {
                     <div>
                     <p className="grid-headtext">I’m flexible and available to work remotely across any time zone or location</p>
                     <p className="text-justify grid-subtext">No matter where you're located, I'm highly adaptable with time zone differences and remote work setups. I prioritize clear communication and consistent collaboration, making it easy to work with clients and teams worldwide.</p>
+                    <a href="#contact" className="w-full">
                     <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                    </a>
                     </div>
                 </div>
             </div>
