@@ -1,8 +1,11 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 function Contact() {
   const formRef = React.useRef();
+  const recaptchaRef = React.useRef();
+
   const [loading, setLoading] = React.useState(false);
   const [form, setForm] = React.useState({
     name: '',
@@ -10,7 +13,6 @@ function Contact() {
     message: ''
   });
 
-  // Initialize EmailJS once
   React.useEffect(() => {
     emailjs.init('_-6B3-ta9TGzIiKZi');
   }, []);
@@ -25,29 +27,35 @@ function Contact() {
     setLoading(true);
 
     try {
-      // Send email to me with the user's message
+      const token = await recaptchaRef.current.executeAsync();
+      recaptchaRef.current.reset();
+
+      if (!token) {
+        alert("reCAPTCHA verification failed. Please try again.");
+        setLoading(false);
+        return;
+      }
+
       await emailjs.send('service_35arxu8', 'template_u7phkmn', {
-        from_name: form.name,  // User's name
-        from_email: form.email,  // User's email
-        message: form.message
+        from_name: form.name,
+        from_email: form.email,
+        message: form.message,
+        'g-recaptcha-response': token
       });
-    
+
       setLoading(false);
       alert('Thank you. I will get back to you as soon as possible.');
-    
-      // Reset form after successful submission
+
       setForm({
         name: '',
         email: '',
         message: ''
       });
-    
     } catch (error) {
       setLoading(false);
       console.error('Email sending error:', error?.text || error);
       alert('Something went wrong: ' + (error?.text || 'Unknown error'));
     }
-    
   };
 
   return (
@@ -104,8 +112,14 @@ function Contact() {
               {loading ? 'Sending...' : 'Send Message'}
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
-          </form>
 
+            <ReCAPTCHA
+              ref={recaptchaRef}
+              sitekey="6LcxFisrAAAAAMWfvTtImiGQthpeUnGr0oi_VVni"
+              size="invisible"
+              badge="bottomleft"
+            />
+          </form>
         </div>
       </div>
     </section>
