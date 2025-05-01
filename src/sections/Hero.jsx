@@ -1,4 +1,4 @@
-import React, {Suspense, use} from 'react'
+import React, {useEffect, useRef, Suspense} from 'react'
 import { Canvas } from '@react-three/fiber'
 import {PerspectiveCamera, Ring } from '@react-three/drei'
 import HackerRoom from '../components/HackerRoom'
@@ -12,6 +12,7 @@ import Cube from '../components/Cube.jsx'
 import Rings from '../components/Ring.jsx'
 import HeroCamera from '../components/HeroCamera.jsx'
 import Button from '../components/Button.jsx'
+import Typed from 'typed.js'
 
 function Hero() {
   // const controls = useControls('Hacker Room', {
@@ -25,6 +26,23 @@ function Hero() {
 
   //   scale: { value: 1, min: 0.1, max: 10 },
   // });
+  
+    const el = useRef(null);
+    const typed = useRef(null);
+  
+    useEffect(() => {
+      typed.current = new Typed(el.current, {
+        strings: ['A Front-End Developer', 'Aspiring Full-Stack Developer', 'React Developer', 'WordPress Specialist', 'AI Enthusiast'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+  
+      return () => {
+        // Destroy the Typed instance during cleanup to prevent memory leaks
+        typed.current.destroy();
+      };
+    }, []);
 
   const isMobile = useMediaQuery({maxWidth: 768}) //for responsive design
   const isTablet = useMediaQuery({minWidth: 768, maxWidth: 1024})
@@ -36,7 +54,9 @@ function Hero() {
    <section className='min-h-screen w-full flex-col relative' id='hero'>
     <div className='mx-auto flex flex-col w-full sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl text-2xl font-medium font-generalsans text-center text-white'>Hi, I'm Husnain Mazhar<span className="waving-hand">👋</span></p>
-        <p className='hero_tag text-gray_gradient'>A Front-End Developer</p>
+        <p className="hero_tag text-gray_gradient">
+      <span ref={el} />
+    </p>
 
         {/*Three Js */}
         <div className='w-full h-full absolute inset-0'>
