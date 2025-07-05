@@ -45,7 +45,7 @@ function NavBar() {
             <nav>
               <NavItems />
             </nav>
-            <a href="/assets/HusnainMazhar-Resume.pdf" download>
+            <a href="https://www.linkedin.com/in/husnain-mazhar/">
               <Button name="Download Resume" isBeam containerClass="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-sm transition-colors" />
             </a>
           </div>
@@ -56,7 +56,7 @@ function NavBar() {
       <div className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96' : 'max-h-0'}`}>
         <nav className="p-4 sm:hidden bg-black/95 border-t border-gray-700">
           <NavItems />
-          <a href="/assets/Husnain_Resume.pdf" download className="block mt-4">
+          <a href="https://www.linkedin.com/in/husnain-mazhar/" download className="block mt-4">
             <Button name="Download Resume" isBeam containerClass="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-sm transition-colors" />
           </a>
         </nav>
