@@ -58,10 +58,47 @@ export const navLinks = [
   
   export const myProjects = [
     {
+      title: 'Trimrr: AI-Powered URL Shortener & QR Code Generator',
+      desc: 'Trimrr is a fast, AI-powered URL shortener and QR code generator designed for both businesses and individuals. It allows users to quickly create clean, branded, and trackable links for social media, marketing, and everyday sharing.',
+      subdesc:
+        ' Key features include custom aliases, real-time analytics, and a user-friendly interface — all available for free. Trimrr simplifies long URLs, making them easier to share and manage across platforms. It also supports QR code generation for offline campaigns and provides insights to optimize link performance.',
+      href: 'https://trimrr.link/',
+      texture: '/textures/project/project2.mp4',
+      logo: '/assets/project-logo1.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
       title: 'Priumum Web Developers - A Digital Solutions Agency',
       desc: 'A creative and performance-focused digital solutions agency specializing in modern, responsive, and performance-driven websites. The agency offers a wide range of services, including custom WordPress development, e-commerce solutions, UI/UX design, SEO optimization, and branding. ',
       subdesc:
-        'With a focus on clean design, user experience, and mobile responsiveness, the agency serves clients across various industries such as education, renovation, healthcare, and retail.ty.',
+        'With a focus on clean design, user experience, and mobile responsiveness, the agency serves clients across various industries such as education, renovation, healthcare, and retail.',
       href: 'https://primumwebdevelopers.com/',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo1.png',
@@ -136,7 +173,7 @@ export const navLinks = [
       desc: 'A web-based tool specifically developed for students of the University of Sialkot to calculate their GPA and CGPA quickly and accurately. The USKT CGPA Calculator features a user-friendly interface where students can input their course grades and credit hours to instantly view their academic performance',
       subdesc:
         'esigned with responsiveness and simplicity in mind, the tool eliminates manual errors and helps students track their academic progress with ease.',
-      href: 'https://usktcgpacalculator.site/',
+      href: 'https://usktcgpacalculator.online/',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -175,7 +212,7 @@ export const navLinks = [
       desc: 'An open-access platform offering curated skill-building resources, including video tutorials, YouTube playlists, roadmaps, notes, and guides across various fields like IT, AI, cybersecurity, design, and development. It is designed to help learners at all levels gain practical knowledge without any cost. ',
       subdesc:
         'With an organized and searchable library, the platform serves as a one-stop destination for anyone looking to upskill efficiently through trusted and structured content.',
-      href: 'https://mukarram.info/',
+      href: 'https://openskillssource.com/',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -371,7 +408,7 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Freelance Web Developer',
+      name: 'Freelance Web Developer (Authorized by PAFLA)',
       // pos: 'Lead Web Developer',
       duration: '2022 - Present',
       title: "Successfully completed 60+ web development projects for global clients via social media and Upwork, delivering custom, responsive websites focused on UX, functionality, and cross-browser compatibility. Managed projects end-to-end with a strong emphasis on timely delivery and client satisfaction.",
@@ -390,9 +427,9 @@ export const navLinks = [
     {
       id: 3,
       name: 'Jr. Web Developer (Remote)',
-      pos: 'Code Alpha | ',
+      pos: 'Code Sync | ',
       duration: '2023 - 2024',
-      title: "As a Web Developer at Code Alpha, I was responsible for designing and developing responsive, user-facing features for web applications. I worked closely with both the design and backend teams to ensure smooth integration and optimal performance across different devices and browsers.",
+      title: "As a Web Developer at Code Sync, I was responsible for designing and developing responsive, user-facing features for web applications. I worked closely with both the design and backend teams to ensure smooth integration and optimal performance across different devices and browsers.",
       icon: '/assets/codealpha.png',
       animation: 'salute',
     },
