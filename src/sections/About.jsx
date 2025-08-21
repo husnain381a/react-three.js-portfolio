@@ -23,7 +23,7 @@ function About() {
 
                     <div>
                         <p className='grid-headtext'>Hi, I'm Husnain</p>
-                        <p className='grid-subtext'>With 2+ years in front-end development, I specialize in building interactive, high-performance web applications focused on design and usability. Expanding into full-stack development through real-world projects, I bring strong problem-solving and project management skills to every challenge.</p>
+                        <p className='grid-subtext'>With 2+ years in web development, I specialize in building interactive, high-performance web applications focused on design and usability. Expanding into full-stack development through real-world projects, I bring strong problem-solving and project management skills to every challenge.</p>
                     </div>
                 </div>
 
