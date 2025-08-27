@@ -95,43 +95,6 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Priumum Web Developers - A Digital Solutions Agency',
-      desc: 'A creative and performance-focused digital solutions agency specializing in modern, responsive, and performance-driven websites. The agency offers a wide range of services, including custom WordPress development, e-commerce solutions, UI/UX design, SEO optimization, and branding. ',
-      subdesc:
-        'With a focus on clean design, user experience, and mobile responsiveness, the agency serves clients across various industries such as education, renovation, healthcare, and retail.',
-      href: 'https://primumwebdevelopers.com/',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
       title: '1 Click Skills – Online Learning Platform for Digital Growth',
       desc: 'An easy-to-access online learning platform focused on delivering practical, skill-based education in fields like IT, graphic design, web development, digital marketing, and more. 1 Click Skills offers both curated free resources and structured learning paths through video tutorials, downloadable materials, and integrated YouTube playlists. ',
       subdesc:
@@ -221,6 +184,43 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px #2F67B64D',
       },
       spotlight: '/assets/spotlight4.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Priumum Web Developers - A Digital Solutions Agency',
+      desc: 'A creative and performance-focused digital solutions agency specializing in modern, responsive, and performance-driven websites. The agency offers a wide range of services, including custom WordPress development, e-commerce solutions, UI/UX design, SEO optimization, and branding. ',
+      subdesc:
+        'With a focus on clean design, user experience, and mobile responsiveness, the agency serves clients across various industries such as education, renovation, healthcare, and retail.',
+      href: 'https://primumwebdevelopers.com/',
+      texture: '/textures/project/project2.mp4',
+      logo: '/assets/project-logo1.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
       tags: [
         {
           id: 1,
@@ -408,7 +408,7 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Freelance Web Developer (Authorized by PAFLA)',
+      name: 'Full-Stack Web Developer (Authorized by PAFLA)',
       // pos: 'Lead Web Developer',
       duration: '2022 - Present',
       title: "Successfully completed 60+ web development projects for global clients via social media and Upwork, delivering custom, responsive websites focused on UX, functionality, and cross-browser compatibility. Managed projects end-to-end with a strong emphasis on timely delivery and client satisfaction.",
@@ -417,20 +417,20 @@ export const navLinks = [
     },
     {
       id: 2,
-      name: 'Front-End Developer',
-      pos: 'Young Dev | ',
+      name: 'Sr. Full-Stack Web Developer',
+      pos: 'Primum Web Dev | ',
       duration: '2024 - 2025',
-      title: "As a Frontend Developer at Young Dev, I designed and developed user-facing features for web apps, collaborating remotely with design and backend teams to ensure seamless integration and performance across devices and browsers.",
-      icon: '/assets/youngdev.png',
+      title: "As a Web Developer at Primum, I was responsible for designing and developing responsive, user-facing features for web applications. I worked closely with both the design and backend teams to ensure smooth integration and optimal performance across different devices and browsers.",
+      icon: '/assets/primum.png',
       animation: 'clapping',
     },
     {
       id: 3,
-      name: 'Jr. Web Developer (Remote)',
-      pos: 'Code Sync | ',
-      duration: '2023 - 2024',
-      title: "As a Web Developer at Code Sync, I was responsible for designing and developing responsive, user-facing features for web applications. I worked closely with both the design and backend teams to ensure smooth integration and optimal performance across different devices and browsers.",
-      icon: '/assets/codealpha.png',
+      name: 'Front-End Web Developer (Remote)',
+      pos: 'Young Dev | ',
+      duration: '2024 - 2025',
+      title: "As a Frontend Developer at Young Dev, I designed and developed user-facing features for web apps, collaborating remotely with design and backend teams to ensure seamless integration and performance across devices and browsers.",
+      icon: '/assets/youngdev.png',
       animation: 'salute',
     },
   ];

@@ -46,7 +46,7 @@ function NavBar() {
               <NavItems />
             </nav>
             <a href="https://www.linkedin.com/in/husnain-mazhar/" target='_blank'>
-              <Button name="Download Resume" isBeam containerClass="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-sm transition-colors" />
+              <Button name="View Resume" isBeam containerClass="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-sm transition-colors" />
             </a>
           </div>
         </div>
@@ -57,7 +57,7 @@ function NavBar() {
         <nav className="p-4 sm:hidden bg-black/95 border-t border-gray-700">
           <NavItems />
           <a href="https://www.linkedin.com/in/husnain-mazhar/" target='_blank' className="block mt-4">
-            <Button name="Download Resume" isBeam containerClass="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-sm transition-colors" />
+            <Button name="View Resume" isBeam containerClass="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-sm transition-colors" />
           </a>
         </nav>
       </div>

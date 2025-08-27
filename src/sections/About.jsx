@@ -23,7 +23,7 @@ function About() {
 
                     <div>
                         <p className='grid-headtext'>Hi, I'm Husnain</p>
-                        <p className='grid-subtext'>With 2+ years in web development, I specialize in building interactive, high-performance web applications focused on design and usability. Expanding into full-stack development through real-world projects, I bring strong problem-solving and project management skills to every challenge.</p>
+                        <p className='grid-subtext'>With 3+ years in full-stack web development, I specialize in building interactive, high-performance web applications focused on design and usability. Expanding into full-stack development through real-world projects, I bring strong problem-solving and project management skills to every challenge.</p>
                     </div>
                 </div>
 
@@ -70,7 +70,7 @@ function About() {
                     <div>
               <p className="grid-headtext">Passion for Web Development, AI, and Innovation</p>
               <p className="grid-subtext">
-              As a web developer and software engineering student, I’m deeply passionate about creating intuitive and engaging user experiences. My enthusiasm for technology extends beyond just coding; I’m fascinated by the potential of AI and how it can shape the future of web development. I’m constantly exploring new tools and techniques to enhance my skills and stay at the cutting edge of the industry
+              As a full-stack web developer and software engineering student, I’m deeply passionate about creating intuitive and engaging user experiences. My enthusiasm for technology extends beyond just coding; I’m fascinated by the potential of AI and how it can shape the future of web development. I’m constantly exploring new tools and techniques to enhance my skills and stay at the cutting edge of the industry
               </p>
             </div>
                 </div>
