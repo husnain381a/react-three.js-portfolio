@@ -34,7 +34,7 @@ function About() {
                         <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] object-contain h-fit" />
                         <div>
                             <p className='grid-headtext'>Tech Stack</p>
-                            <p className=' grid-subtext'>I use a modern set of tools to build fast, responsive, and user-friendly web applications. With skills in both front-end and back-end development, I create seamless user experiences and powerful functionality. I’m always exploring new technologies to stay updated and improve my work.</p>
+                            <p className=' grid-subtext'>I use a modern set of tools to build fast, responsive, and user-friendly web applications. With skills in front-end development, back-end development, and SEO, I create seamless user experiences and powerful functionality while helping businesses grow their online presence. I’m always exploring new technologies to stay updated and improve my work.</p>
                         </div>
                     </div>
                 </div>
