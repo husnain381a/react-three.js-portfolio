@@ -20,6 +20,28 @@ export const navLinks = [
       href: '#contact',
     },
   ];
+  export const navLinks2 = [
+    {
+      id: 1,
+      name: 'Home',
+      href: 'https://husnainmazhar.site/',
+    },
+    {
+      id: 2,
+      name: 'About',
+      href: 'https://husnainmazhar.site/#about',
+    },
+    {
+      id: 3,
+      name: 'Portfolio',
+      href: 'https://husnainmazhar.site/#portfolio',
+    },
+    {
+      id: 4,
+      name: 'Contact',
+      href: 'https://husnainmazhar.site/#contact',
+    },
+  ];
   
   export const clientReviews = [
     {
