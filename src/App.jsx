@@ -48,7 +48,7 @@ function App() {
       <main className='max-w-7xl mx-auto'>
       
         {/* Use NavBar2 ONLY on /pricing */}
-        {window.location.pathname === "/pricing" ? <NavBar2 /> : <NavBar />}
+        {window.location.pathname === "/service-plans" ? <NavBar2 /> : <NavBar />}
 
         <Routes>
           <Route path="/" element={
