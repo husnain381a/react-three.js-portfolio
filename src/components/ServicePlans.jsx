@@ -223,7 +223,7 @@ const pricingData = {
   },
 };
 
-const Pricing = () => {
+const ServicePlans = () => {
   const [activeCategory, setActiveCategory] = useState('wordpress');
 
   const categories = [
@@ -243,7 +243,7 @@ const Pricing = () => {
     <section className="c-space my-20" id="pricing">
       <div className="w-full max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="head-text mb-4">Service Pricing</h2>
+          <h2 className="head-text mb-4">Service Plans</h2>
           <p className="text-white_800 text-lg max-w-2xl mx-auto">
             Choose the perfect plan for your project. All plans include professional service and quality delivery.
           </p>
@@ -340,4 +340,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default ServicePlans;

@@ -14,7 +14,7 @@ import Experience from './sections/Experience';
 import Education from './sections/Education';
 import MobilePopup from './sections/MobilePopup';
 import { useIsMobile } from './utils/DeviceInfo';
-import Pricing from './components/Pricing';
+import ServicePlans from './components/ServicePlans';
 
 function App() {
   const isMobile = useIsMobile();
@@ -62,7 +62,7 @@ function App() {
             </>
           } />
 
-          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/service-plans" element={<ServicePlans/>} />
         </Routes>
 
         <Footer />
