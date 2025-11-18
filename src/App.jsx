@@ -15,6 +15,7 @@ import Education from './sections/Education';
 import MobilePopup from './sections/MobilePopup';
 import { useIsMobile } from './utils/DeviceInfo';
 import ServicePlans from './components/ServicePlans';
+import NotFound from './components/NotFound';
 
 function App() {
   const isMobile = useIsMobile();
@@ -63,6 +64,8 @@ function App() {
           } />
 
           <Route path="/service-plans" element={<ServicePlans/>} />
+          <Route path="*" element={<NotFound />} />
+
         </Routes>
 
         <Footer />
