@@ -17,7 +17,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-sm text-gray-400">
-          © 2025 Husnain Mazhar. All rights reserved.
+          © 2026 Husnain Mazhar. All rights reserved.
         </p>
       </div>
     </footer>
