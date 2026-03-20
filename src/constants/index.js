@@ -16,6 +16,11 @@ export const navLinks = [
     },
     {
       id: 4,
+      name: 'Service Plans',
+      href: '/service-plans',
+    },
+    {
+      id: 5,
       name: 'Contact',
       href: '#contact',
     },
@@ -38,6 +43,11 @@ export const navLinks = [
     },
     {
       id: 4,
+      name: 'Service Plans',
+      href: 'https://husnainmazhar.site/service-plans',
+    },
+    {
+      id: 5,
       name: 'Contact',
       href: 'https://husnainmazhar.site/#contact',
     },
@@ -433,7 +443,7 @@ export const navLinks = [
       name: 'Full-Stack Web Developer (Authorized by PAFLA)',
       // pos: 'Lead Web Developer',
       duration: '2022 - Present',
-      title: "Successfully completed 60+ web development projects for global clients via social media and Upwork, delivering custom, responsive websites focused on UX, functionality, and cross-browser compatibility. Managed projects end-to-end with a strong emphasis on timely delivery and client satisfaction.",
+      title: "Successfully completed 100+ web development projects for global clients via social media and Upwork, delivering custom, responsive websites focused on UX, functionality, and cross-browser compatibility. Managed projects end-to-end with a strong emphasis on timely delivery and client satisfaction.",
       icon: '/assets/freelancer.png',
       animation: 'victory',
     },

@@ -23,7 +23,7 @@ function About() {
 
                         <div>
                             <p className='grid-headtext'>Hi, I'm Husnain</p>
-                            <p className='grid-subtext'>With 3+ years in full-stack web development, I specialize in building interactive, high-performance web applications focused on design and usability. Expanding into full-stack and AI/ML development through real-world projects, I bring strong problem-solving and project management skills to every challenge, creating innovative, intelligent digital solutions.</p>
+                            <p className='grid-subtext'>With 3+ years in Full-Stack & SaaS development, I build scalable, multi-tenant applications with a focus on high-performance architecture. I bridge the gap between complex web ecosystems and AI-as-a-Service (AIaaS), delivering intelligent, automated solutions through advanced model integration and robust engineering.</p>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@ function About() {
                         <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] object-contain h-fit" />
                         <div>
                             <p className='grid-headtext'>Tech Stack</p>
-                            <p className=' grid-subtext'>I use a modern set of tools to build fast, responsive, and user-friendly web applications. With skills in front-end development, back-end development, and SEO, I create seamless user experiences and powerful functionality while helping businesses grow their online presence. I’m always exploring new technologies to stay updated and improve my work.</p>
+                            <p className=' grid-subtext'>I engineer responsive platforms by combining Next.js and the PERN Stack with ASP.NET Core APIs. My approach integrates strategic SEO and CMS optimization to scale digital footprints, while leveraging AI/ML to build smarter, future-ready functionality.</p>
                         </div>
                     </div>
                 </div>
@@ -68,9 +68,9 @@ function About() {
                     <div className='grid-container'>
                         <img src="/assets/grid3.png" alt="grid-3" className='w-full sm:h-[266px] h-fit object-contain' />
                         <div>
-                            <p className="grid-headtext">Passion for Web Development, AI, and Innovation</p>
+                            <p className="grid-headtext">Passion for Full-Stack Development, AI, and Innovation</p>
                             <p className="grid-subtext">
-                                As a full-stack web developer and software engineering student, I’m deeply passionate about creating intuitive and engaging user experiences. My enthusiasm for technology extends beyond just coding; I’m fascinated by the potential of AI and how it can shape the future of web development. I’m constantly exploring new tools and techniques to enhance my skills and stay at the cutting edge of the industry
+                                As a Software Engineering student and Full-Stack Developer, I am driven by the challenge of architecting intuitive, high-performance digital ecosystems. My focus extends beyond traditional development; I am dedicated to exploring the intersection of SaaS architecture and AI-as-a-Service, leveraging machine learning to redefine how users interact with the web. By continuously integrating modern frameworks and automated workflows, I aim to build future-ready solutions that solve complex problems with precision and scalability.
                             </p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ function About() {
                             <p className='grid-subtext text-center'>Contact Me</p>
                             <div className='copy-container' onClick={handleCopy}>
                                 <img src={copy ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                                <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white">husnainmazhar002@gmail.com</p>
+                                <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white">info@husnainmazhar.com</p>
                             </div>
 
                         </div>
