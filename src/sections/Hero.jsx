@@ -32,7 +32,7 @@ function Hero() {
   
     useEffect(() => {
       typed.current = new Typed(el.current, {
-        strings: ['A Full-Stack Developer', 'SaaS & AIaaS Developer', 'PERN Stack & Next.js', 'ASP.NET Core & APIs', 'Android (Java) Developer ', 'CMS & SEO Specialist'],
+        strings: ['A Full-Stack Developer', 'SaaS & AIaaS Architect', 'PERN Stack & Next.js', 'ASP.NET Core & APIs', 'Android (Java) Developer ', 'CMS & SEO Specialist'],
         typeSpeed: 90,
         backSpeed: 90,
         loop: true,
