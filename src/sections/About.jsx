@@ -23,7 +23,7 @@ function About() {
 
                         <div>
                             <p className='grid-headtext'>Hi, I'm Husnain</p>
-                            <p className='grid-subtext'>With 3+ years of experience, I specialize in Full-Stack Development and the architecture of SaaS platforms. I build scalable, multi-tenant applications with a focus on high-performance infrastructure, bridging the gap between complex web ecosystems and AI-as-a-Service (AIaaS) to deliver intelligent, automated solutions through advanced model integration.</p>
+                            <p className='grid-subtext'>With 3+ years of experience, I specialize in Full-Stack Development, SaaS & AIaaS Architecture. I build scalable, multi-tenant applications with a focus on high-performance infrastructure, bridging the gap between complex web ecosystems and AI-as-a-Service (AIaaS) to deliver intelligent, automated solutions through advanced model integration and robust system design.</p>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@ function About() {
                         <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] object-contain h-fit" />
                         <div>
                             <p className='grid-headtext'>Tech Stack</p>
-                            <p className=' grid-subtext'>I engineer responsive platforms by combining Next.js and the PERN Stack with ASP.NET Core APIs. My approach integrates strategic SEO and CMS optimization to scale digital footprints, while leveraging AI/ML to build smarter, future-ready functionality.</p>
+                            <p className=' grid-subtext'>I engineer responsive platforms by combining Next.js and the PERN Stack with ASP.NET Core APIs. My approach integrates strategic SEO and CMS optimization to scale digital footprints, while leveraging AI/ML to build smarter, future-ready functionality. Additionally, I bridge the gap between web and mobile by developing native Android (Java) applications, ensuring a seamless, high-performance experience across every digital touchpoint.</p>
                         </div>
                     </div>
                 </div>
