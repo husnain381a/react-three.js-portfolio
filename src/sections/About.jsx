@@ -23,7 +23,7 @@ function About() {
 
                         <div>
                             <p className='grid-headtext'>Hi, I'm Husnain</p>
-                            <p className='grid-subtext'>With 3+ years in Full-Stack & SaaS development, I build scalable, multi-tenant applications with a focus on high-performance architecture. I bridge the gap between complex web ecosystems and AI-as-a-Service (AIaaS), delivering intelligent, automated solutions through advanced model integration and robust engineering.</p>
+                            <p className='grid-subtext'>With 3+ years of experience, I specialize in Full-Stack Development and the architecture of SaaS platforms. I build scalable, multi-tenant applications with a focus on high-performance infrastructure, bridging the gap between complex web ecosystems and AI-as-a-Service (AIaaS) to deliver intelligent, automated solutions through advanced model integration.</p>
                         </div>
                     </div>
 
