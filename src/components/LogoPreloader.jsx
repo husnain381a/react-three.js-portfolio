@@ -2,7 +2,7 @@ import React from 'react';
 
 const LOGO_SRC = '/assets/favicon.png';
 
-function LogoPreloader() {
+function LogoPreloader({ onCycleComplete }) {
   return (
     <div className='logo-preloader' role='status' aria-live='polite' aria-label='Loading site'>
       <div className='logo-preloader__stage'>
@@ -18,6 +18,7 @@ function LogoPreloader() {
           aria-hidden='true'
           className='logo-preloader__logo logo-preloader__logo--fill'
           draggable='false'
+          onAnimationIteration={onCycleComplete}
         />
       </div>
     </div>

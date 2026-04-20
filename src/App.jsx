@@ -20,13 +20,14 @@ import LogoPreloader from './components/LogoPreloader';
 
 function App() {
   const isMobile = useIsMobile();
-  const [isLoading, setIsLoading] = useState(() => document.readyState !== 'complete');
+  const [pageLoaded, setPageLoaded] = useState(() => document.readyState === 'complete');
+  const [hasPreloaderLooped, setHasPreloaderLooped] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [hasSeenPopup, setHasSeenPopup] = useState(false);
 
   useEffect(() => {
     const handleLoaded = () => {
-      setIsLoading(false);
+      setPageLoaded(true);
     };
 
     if (document.readyState === 'complete') {
@@ -57,8 +58,10 @@ function App() {
     sessionStorage.setItem('hasSeenPopup', 'true');
   };
 
+  const isLoading = !pageLoaded || !hasPreloaderLooped;
+
   if (isLoading) {
-    return <LogoPreloader />;
+    return <LogoPreloader onCycleComplete={() => setHasPreloaderLooped(true)} />;
   }
 
   return (
