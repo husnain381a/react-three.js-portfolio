@@ -16,11 +16,28 @@ import MobilePopup from './sections/MobilePopup';
 import { useIsMobile } from './utils/DeviceInfo';
 import ServicePlans from './components/ServicePlans';
 import NotFound from './components/NotFound';
+import LogoPreloader from './components/LogoPreloader';
 
 function App() {
   const isMobile = useIsMobile();
+  const [isLoading, setIsLoading] = useState(() => document.readyState !== 'complete');
   const [showPopup, setShowPopup] = useState(false);
   const [hasSeenPopup, setHasSeenPopup] = useState(false);
+
+  useEffect(() => {
+    const handleLoaded = () => {
+      setIsLoading(false);
+    };
+
+    if (document.readyState === 'complete') {
+      handleLoaded();
+      return undefined;
+    }
+
+    window.addEventListener('load', handleLoaded);
+
+    return () => window.removeEventListener('load', handleLoaded);
+  }, []);
 
   useEffect(() => {
     const hasSeenPopupSession = sessionStorage.getItem('hasSeenPopup');
@@ -39,6 +56,10 @@ function App() {
     setHasSeenPopup(true);
     sessionStorage.setItem('hasSeenPopup', 'true');
   };
+
+  if (isLoading) {
+    return <LogoPreloader />;
+  }
 
   return (
     <Router>
