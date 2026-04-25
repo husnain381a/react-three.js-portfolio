@@ -29,27 +29,27 @@ export const navLinks = [
     {
       id: 1,
       name: 'Home',
-      href: 'https://husnainmazhar.site/',
+      href: 'https://husnainmazhar.com/',
     },
     {
       id: 2,
       name: 'About',
-      href: 'https://husnainmazhar.site/#about',
+      href: 'https://husnainmazhar.com/#about',
     },
     {
       id: 3,
       name: 'Portfolio',
-      href: 'https://husnainmazhar.site/#portfolio',
+      href: 'https://husnainmazhar.com/#portfolio',
     },
     {
       id: 4,
       name: 'Service Plans',
-      href: 'https://husnainmazhar.site/service-plans',
+      href: 'https://husnainmazhar.com/service-plans',
     },
     {
       id: 5,
       name: 'Contact',
-      href: 'https://husnainmazhar.site/#contact',
+      href: 'https://husnainmazhar.com/#contact',
     },
   ];
   
